@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --bg-color: rgba()47, 23, 15, 0.9;
+    --second-bg-color: #df902a;
+    --text-color: #e1e1e1;
+    --hover-color: rgba(255, 255, 255, 0.4);
+
+    --font-sans: "Open Sans", sans-serif;
+    --font-pacifico: "Pacifico", cursive;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: var(--font-sans);
+}
