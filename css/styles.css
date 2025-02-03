@@ -194,3 +194,49 @@ body {
 .best-seller-item .btn {
     pad: 1rem 2rem;
 }
+
+/*          Nuevos Productos
+==================================== */
+
+.new-product {
+    padding: 6rem 0;
+    width: 100%;
+    background-image: url(../images/bg-img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product-content {
+    position: relative;
+}
+
+.product-content img {
+    width: 100%;
+
+}
+
+.product-info {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    width: 40rem;
+    text-align: center;
+}
+
+.product-info .title2 {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+
+.product-info p {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.product-info .btn {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+
