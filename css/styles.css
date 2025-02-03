@@ -239,4 +239,57 @@ body {
     color: var(--text-color);
 }
 
+/*          Menu
+==================================== */
 
+.menu {
+    padding: 4rem 0;
+    background-color: var(--second-bg-color);
+}
+
+.menu-content {
+    border: 0.2rem solid var(--bg-color);
+    padding: 1rem;
+}
+
+.menu-content2 {
+    border: 0.2rem solid var(--bg-color);
+    padding: 2rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+}
+
+.menu-content2 article {
+    padding: 2rem;
+}
+
+.menu-content2 article h5 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+.menu-item {
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+    border-bottom: 0.4rem dotted var(--bg-color);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.menu-item .name,
+.menu-item .price {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.menu-item .price {
+    text-align: end;
+}
+
+.menu-item .desc {
+    grid-column: span 2;
+}
