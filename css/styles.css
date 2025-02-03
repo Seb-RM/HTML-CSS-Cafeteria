@@ -349,3 +349,12 @@ body {
     font-weight: 500;
     font-size: 1.8rem;
 }
+
+.map {
+    width: 100%;
+}
+
+.map iframe {
+    width: 100%;
+    max-height: 60rem;
+}
