@@ -149,3 +149,48 @@ body {
 .welcome-btn {
     margin-bottom: -8rem;
 }
+
+/*          -Best-sellers
+==================================== */
+
+.best-sellers {
+    background-image: url(../images/bg-img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.best-sellers-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    align-content: center;
+    gap: 2rem;
+
+}
+
+.best-seller-item {
+    background-color: var(--hover-color);
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.best-seller-item img {
+    width: 70%;
+    border-radius: 1rem;
+}
+
+.best-seller-item h3 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.best-seller-item p {
+    margin: 2rem 0;
+}
+
+.best-seller-item .btn {
+    pad: 1rem 2rem;
+}
