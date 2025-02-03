@@ -358,3 +358,107 @@ body {
     width: 100%;
     max-height: 60rem;
 }
+
+
+/*         Footer
+==================================== */
+
+.footer {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 4rem;
+}
+
+.footer a {
+    color: var(--text-color);
+}
+
+.footer-logo {grid-area: footer-logo;}
+.social-media {grid-area: social-media;}
+.footer-about {grid-area: footer-about;}
+.footer-other {grid-area: footer-other;}
+.footer-text {grid-area: footer-text;}
+
+.footer-content {
+    display: grid;
+    grid-template-areas:    "footer-logo footer-logo footer-about footer-other"
+                            "social-media social-media footer-about footer-other"
+                            "footer-text footer-text footer-text footer-text"; 
+    gap: 2rem;
+}  
+
+.footer-logo {
+    place-self: center;
+}
+
+.footer-logo h2 {
+    color: var(--second-bg-color);
+    font-family: var(--font-pacifico);
+    font-size: 3rem;
+    text-align: center;
+}
+
+.footer-logo .desc {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    gap: 1.5rem;
+}
+
+.social-media a {
+    color: var(--second-bg-color);
+    display: inline-flex;
+    padding: 1rem;
+    border: .2rem solid var(--second-bg-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    transition: 0.3s ease;
+}
+
+.social-media a:hover {
+    background-color: var(--second-bg-color);
+    color: var(--bg-color);
+    transform: scale(1.2);
+    box-shadow: 0 0 2rem var(--second-bg-color);
+}
+
+.footer-about h3,
+.footer-other h3 {
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+    padding: .5rem;
+}
+
+.footer-about ul,
+.footer-other ul {
+    padding-left: 2rem;
+    list-style: none;
+}
+
+.footer-about li,
+.footer-other li {
+    margin-bottom: 1rem;
+}
+
+.footer-about a,
+.footer-other a {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.footer-about a:hover,
+.footer-other a:hover {
+    color: var(--hover-color);
+}
+
+.footer-text {
+    text-align: center;
+    color: var(--hover-color);
+}
