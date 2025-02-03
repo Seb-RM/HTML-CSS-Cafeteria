@@ -321,3 +321,31 @@ body {
     transform: scale(1.1);
     z-index: 100;
 }
+
+/*          Menu
+==================================== */
+
+.location {
+    padding: 6rem 0;
+}
+
+.location-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+}
+
+.location-content .address,
+.location-content .schedules {
+    padding: 2rem;
+}
+
+.location-content h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.location-content p,
+.location-content li {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
