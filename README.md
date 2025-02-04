@@ -87,7 +87,7 @@ HTML-CSS-CAFETERIA/
 [![Licencia](https://img.shields.io/badge/Licencia-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![GitHub Último Commit](https://img.shields.io/github/last-commit/tuusuario/turepo)](https://github.com/Seb-RM/HTML-CSS-Cafeteria)
+[![Último Commit](https://img.shields.io/github/last-commit/Seb-RM/HTML-CSS-Cafeteria)](https://github.com/Seb-RM/HTML-CSS-Cafeteria/commits)
 [![Tamaño Código](https://img.shields.io/github/repo-size/tuusuario/turepo)](https://github.com/Seb-RM/HTML-CSS-Cafeteria)
 
 # Café Don Pedrito - Sitio Web para Cafetería
