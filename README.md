@@ -90,3 +90,5 @@ HTML-CSS-CAFETERIA/
 [![Último Commit](https://img.shields.io/github/last-commit/Seb-RM/HTML-CSS-Cafeteria)](https://github.com/Seb-RM/HTML-CSS-Cafeteria/commits)
 [![Tamaño Código](https://img.shields.io/github/repo-size/Seb-RM/HTML-CSS-Cafeteria)](https://github.com/Seb-RM/HTML-CSS-Cafeteria)
 [![GitHub Stars](https://img.shields.io/github/stars/Seb-RM/HTML-CSS-Cafeteria)](https://github.com/Seb-RM/HTML-CSS-Cafeteria/stargazers)
+[![Demo](https://img.shields.io/badge/Ver%20Sitio-Online%20☕-2ea44f?logo=google-chrome)](https://seb-rm.github.io/HTML-CSS-Cafeteria/)
+[![Responsive](https://img.shields.io/badge/Responsive-Tested%20☕-brightgreen)](https://seb-rm.github.io/HTML-CSS-Cafeteria/)
