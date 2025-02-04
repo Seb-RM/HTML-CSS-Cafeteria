@@ -40,7 +40,7 @@ Proyecto HTML que simula el sitio web de una cafetería, desarrollado para pract
   - Imágenes flexibles
 
 ## 📂 Estructura del proyecto
-```
+```plaintext
 HTML-CSS-CAFETERIA/
 ├── index.html
 ├── css/
@@ -83,3 +83,23 @@ HTML-CSS-CAFETERIA/
 - Uso de pseudoclases para efectos interactivos
 - Sistema de colores basado en variables CSS
 - Optimización de imágenes para web
+
+[![Licencia](https://img.shields.io/badge/Licencia-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![GitHub Último Commit](https://img.shields.io/github/last-commit/tuusuario/turepo)](https://github.com/tuusuario/turepo)
+[![Tamaño Código](https://img.shields.io/github/repo-size/tuusuario/turepo)](https://github.com/tuusuario/turepo)
+
+# Café Don Pedrito - Sitio Web para Cafetería
+
+[![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-blueviolet.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![HTML5](https://img.shields.io/badge/HTML-Expertos%20en%20Caf%C3%A9-%23E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-Stylish%20Brews-%231572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Responsive](https://img.shields.io/badge/Responsive-Tested%20☕-brightgreen)](https://cafedonpedrito.com)
+[![GitHub Stars](https://img.shields.io/github/stars/tuusuario/turepo?style=social)](https://github.com/tuusuario/turepo)
+
+![Preview del sitio](https://via.placeholder.com/800x400.png?text=Preview+del+Sitio+Web)
+
+[![Despliegue](https://github.com/tuusuario/turepo/actions/workflows/deploy.yml/badge.svg)](https://github.com/tuusuario/turepo/actions)
+
+[![Café](https://img.shields.io/badge/Hecho%20con-%E2%98%95%EF%B8%8FCaf%C3%A9-brown?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMEwxLjI1IDVoMjEuNUwxMiAwek0yLjAyNiAxOC4wMjZjLjE0NS42NDguODg2IDEuMDI0IDEuNjUzLjg0OS43NjctLjE3NSAxLjMxLS43ODkgMS4xNjQtMS437DQuMTQ2IDQuMjk3bC0yLjU1MSA5LjQyOHpNNS42MTMgMjEuMzM5Yy0uNDMyLjA5NC0uODQ2LS4xOTgtLjkxNS0uNjQ3bC0xLjI5OS01LjQzOCA3LjA3MSA0LjE5N2wtNC44NTcgMS44ODh6TTE5Ljk3NCA4LjYwNmwtMi4yODYgOC4zNTljLS4xNDUuNjQ4LjM5NyAxLjI2MiAxLjE2NCAxLjQzNy43NjcuMTc1IDEuNTA4LS4yMDEgMS42NTMtLjg0OWwyLjU1LTkuNDI4LTIuA4xIDB6Ii8+PC9zdmc+)](https://es.wikipedia.org/wiki/Caf%C3%A9)
