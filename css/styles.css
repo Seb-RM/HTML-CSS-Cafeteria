@@ -325,6 +325,13 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
 }
 
+@media (max-width: 578px) {
+    .menu-content2 {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+}
+
 .menu-content2 article {
     padding: 2rem;
 }
@@ -450,7 +457,39 @@ body {
                             "social-media social-media footer-about footer-other"
                             "footer-text footer-text footer-text footer-text"; 
     gap: 2rem;
-}  
+}
+
+@media (max-width: 992px) {
+    .footer-content {
+        grid-template-areas:    "footer-logo footer-logo footer-logo footer-about footer-about"
+                                "social-media social-media social-media footer-about footer-about"
+                                    ". . . footer-other footer-other"
+                                    ". . . footer-other footer-other"
+                                    "footer-text footer-text footer-text footer-text footer-text"; 
+    }
+}
+
+@media (max-width: 676px) {
+    .footer-content {
+        grid-template-areas:    "footer-logo footer-logo"
+                                "social-media social-media"
+                                "footer-about footer-other"
+                                "footer-about footer-other"
+                                "footer-text footer-text"; 
+        place-content: center;
+    }
+}
+
+@media (max-width: 420px) {
+    .footer-content {
+        grid-template-areas:    "footer-logo"
+                                "social-media"
+                                "footer-about"
+                                "footer-other"
+                                "footer-text"; 
+        place-content: center;
+    }
+}
 
 .footer-logo {
     place-self: center;
@@ -461,6 +500,17 @@ body {
     font-family: var(--font-pacifico);
     font-size: 3rem;
     text-align: center;
+}
+
+@media (max-width: 578px) {
+    
+    .footer-logo h2 {
+        font-size: 2rem;
+    }
+
+    .footer-logo .desc  {
+        font-size: 1.6rem;
+    }
 }
 
 .footer-logo .desc {
